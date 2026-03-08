@@ -1,0 +1,25 @@
+{
+  "name": "test-aegir",
+  "module": "index.ts",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "build": "aegir build",
+    "test": "aegir test",
+    "test:node": "aegir test --target node",
+    "test:browser": "aegir test --target browser"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "aegir": "^47.0.26"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
