@@ -7,9 +7,13 @@ module.exports = {
     access: "public",
     publish: true,
     ghRelease: false,
-    npmPublish: true,
-    npmPublishOptions: {
-      provenance: false
-    }
+    plugins: [
+      '@semantic-release/commit-analyzer',
+      '@semantic-release/release-notes-generator',
+      ['@semantic-release/npm', {
+        npmPublish: true,
+        provenance: false
+      }]
+    ]
   }
 }
