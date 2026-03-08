@@ -14,4 +14,3 @@ describe('Aegir Build Tests', () => {
     expect(result.length).to.be.greaterThan(12)
   })
 })
-
