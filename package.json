@@ -1,8 +1,125 @@
 {
   "name": "test-aegir",
-  "module": "index.ts",
+  "license": "Apache-2.0 OR MIT",
+  "homepage": "https://github.com/mingder78/test-aegir#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingder78/test-aegir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mingder78/test-aegir/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "type": "module",
-  "main": "src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "!dist/test",
+    "!**/*.tsbuildinfo"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "conventionalcommits",
+          "releaseRules": [
+            {
+              "breaking": true,
+              "release": "major"
+            },
+            {
+              "revert": true,
+              "release": "patch"
+            },
+            {
+              "type": "feat",
+              "release": "minor"
+            },
+            {
+              "type": "fix",
+              "release": "patch"
+            },
+            {
+              "type": "docs",
+              "release": "patch"
+            },
+            {
+              "type": "test",
+              "release": "patch"
+            },
+            {
+              "type": "deps",
+              "release": "patch"
+            },
+            {
+              "scope": "no-release",
+              "release": false
+            }
+          ]
+        }
+      ],
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "preset": "conventionalcommits",
+          "presetConfig": {
+            "types": [
+              {
+                "type": "feat",
+                "section": "Features"
+              },
+              {
+                "type": "fix",
+                "section": "Bug Fixes"
+              },
+              {
+                "type": "chore",
+                "section": "Trivial Changes"
+              },
+              {
+                "type": "docs",
+                "section": "Documentation"
+              },
+              {
+                "type": "deps",
+                "section": "Dependencies"
+              },
+              {
+                "type": "test",
+                "section": "Tests"
+              }
+            ]
+          }
+        }
+      ],
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md",
+            "package.json"
+          ]
+        }
+      ]
+    ]
+  },
   "scripts": {
     "lint": "aegir lint",
     "release": "aegir release",
@@ -11,15 +128,12 @@
     "test:node": "aegir test --target node",
     "test:browser": "aegir test --target browser"
   },
-  "files": [
-    "src",
-    "dist"
-  ],
   "devDependencies": {
     "@types/bun": "latest",
     "aegir": "^47.0.26"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "module": "index.ts"
 }
