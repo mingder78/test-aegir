@@ -1,6 +1,6 @@
 {
   "name": "@yourorg/test-aegir",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "license": "Apache-2.0 OR MIT",
   "homepage": "https://github.com/mingder78/test-aegir#readme",
   "repository": {
@@ -136,6 +136,5 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "main": "src/index.ts",
-  "version": "1.0.0"
+  "main": "src/index.ts"
 }

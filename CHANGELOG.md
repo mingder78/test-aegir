@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/mingder78/test-aegir/compare/v1.0.0...v1.1.0) (2026-03-08)
+
+### Features
+
+* release test ([7c46d0c](https://github.com/mingder78/test-aegir/commit/7c46d0c40dbce0a13f61b42d29f939ec5dab182a))
+
 ## 1.0.0 (2026-03-08)
 
 ### Features
