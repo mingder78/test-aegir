@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "declaration": true,
     // Enable latest features
     "lib": ["ESNext", "DOM"],
     "target": "ESNext",
@@ -9,17 +10,17 @@
     "allowJs": true,
 
     // Bundler mode
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "Node",
+    "allowImportingTsExtensions": false,
     "verbatimModuleSyntax": true,
-    "noEmit": true,
+    "noEmit": false,
 
     // Best practices
     "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
 
-    "outDir": "dist", 
+    "outDir": "dist/src", 
     "rootDir": "src", 
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
