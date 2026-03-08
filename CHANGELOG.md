@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/mingder78/test-aegir/compare/v1.4.0...v1.5.0) (2026-03-08)
+
+### Features
+
+* change API 4 ([adcad6b](https://github.com/mingder78/test-aegir/commit/adcad6b91c3b2bf6027858d54affeb0a05f9e684))
+
 ## [1.4.0](https://github.com/mingder78/test-aegir/compare/v1.3.0...v1.4.0) (2026-03-08)
 
 ### Features
