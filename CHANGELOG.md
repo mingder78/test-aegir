@@ -1,3 +1,15 @@
+## [1.8.0](https://github.com/mingder78/test-aegir/compare/v1.7.0...v1.8.0) (2026-03-08)
+
+### Features
+
+* change API 5 ([54a0912](https://github.com/mingder78/test-aegir/commit/54a09122929589dd2e6cca9f1f6051ab6d3fb27e))
+
+### Bug Fixes
+
+* again ([98e0ae0](https://github.com/mingder78/test-aegir/commit/98e0ae0529b1d6b5a51e906b167d19a1530d42f5))
+* pass test-node on ubuntu ([6b0406f](https://github.com/mingder78/test-aegir/commit/6b0406fe8db71e5933110a2ba21728265eb65252))
+* release ok, set secure variable on github ([203930e](https://github.com/mingder78/test-aegir/commit/203930e438cc31aaeb267c2306e01d032411c62c))
+
 ## [1.7.0](https://github.com/mingder78/test-aegir/compare/v1.6.0...v1.7.0) (2026-03-08)
 
 ### Features
