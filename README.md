@@ -85,3 +85,6 @@ mingderwang
 [1:33:48 am] [semantic-release] › ℹ  There are no relevant changes, so no new version is released.
 [01:33:48] semantic-release [completed]
 ```
+
+# release 
+v0.0.2
