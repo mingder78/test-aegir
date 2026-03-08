@@ -135,5 +135,5 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "module": "index.ts"
+  "main": "src/index.ts"
 }

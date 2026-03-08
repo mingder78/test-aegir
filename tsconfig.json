@@ -19,9 +19,13 @@
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
 
+    "outDir": "dist", 
+    "rootDir": "src", 
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
-  }
+  },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "dist"]
 }
