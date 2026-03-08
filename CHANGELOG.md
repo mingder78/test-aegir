@@ -1,3 +1,9 @@
+## [1.8.1](https://github.com/mingder78/test-aegir/compare/v1.8.0...v1.8.1) (2026-03-08)
+
+### Bug Fixes
+
+* remove elint config ([a35201a](https://github.com/mingder78/test-aegir/commit/a35201a4d6f30baa03bfc9b4562f2c7b89c60364))
+
 ## [1.8.0](https://github.com/mingder78/test-aegir/compare/v1.7.0...v1.8.0) (2026-03-08)
 
 ### Features
