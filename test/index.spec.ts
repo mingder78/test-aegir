@@ -9,8 +9,10 @@ describe('Aegir Build Tests', () => {
 
   it('should return a valid Bun version string', () => {
     const result = version()
-    expect(result).to.contain('Bun version:')
-    // Ensures the version isn't undefined or empty
-    expect(result.length).to.be.greaterThan(12)
+    if (typeof Bun !== 'undefined') {
+      expect(result).to.match(/^Bun version: \d+\.\d+/)
+    } else {
+      expect(result).to.equal('Bun version: N/A')
+    }
   })
 })
