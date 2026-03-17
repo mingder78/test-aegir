@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/mingder78/test-aegir/compare/v2.0.0...v2.0.1) (2026-03-17)
+
+### Bug Fixes
+
+* bump to 2.x release line ([e5f6785](https://github.com/mingder78/test-aegir/commit/e5f6785f22efe5ee2c61add671a8981c97e5f8d8))
+
 ## [1.8.3](https://github.com/mingder78/test-aegir/compare/v1.8.2...v1.8.3) (2026-03-17)
 
 ### Bug Fixes
