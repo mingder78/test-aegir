@@ -1,3 +1,13 @@
+## [1.8.2](https://github.com/mingder78/test-aegir/compare/v1.8.1...v1.8.2) (2026-03-17)
+
+### Bug Fixes
+
+* guard Bun global, fix main field, remove unused deps, improve version test ([2d3e3cc](https://github.com/mingder78/test-aegir/commit/2d3e3ccd44433b20c24cc130f228f37215a57eb0))
+
+### Trivial Changes
+
+* bump jsdom from 28.1.0 to 29.0.0 ([7a54e18](https://github.com/mingder78/test-aegir/commit/7a54e1803afdc729516610026480b04083c202b6))
+
 ## [1.8.1](https://github.com/mingder78/test-aegir/compare/v1.8.0...v1.8.1) (2026-03-08)
 
 ### Bug Fixes
