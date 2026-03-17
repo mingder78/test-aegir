@@ -1,3 +1,9 @@
+## [1.8.3](https://github.com/mingder78/test-aegir/compare/v1.8.2...v1.8.3) (2026-03-17)
+
+### Bug Fixes
+
+* remove provenance flag for local publishing ([d5fd1ab](https://github.com/mingder78/test-aegir/commit/d5fd1ab4b5f42fda22c56803c093f62de47ce8f1))
+
 ## [1.8.2](https://github.com/mingder78/test-aegir/compare/v1.8.1...v1.8.2) (2026-03-17)
 
 ### Bug Fixes
